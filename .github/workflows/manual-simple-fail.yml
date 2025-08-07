@@ -3,7 +3,7 @@
 name: Manual Deploy Demo
 
 on:
-  workflow_dispatch:
+workflow_dispatch:
     inputs:
       environment:
         description: '어느 환경에 배포할까요?'
